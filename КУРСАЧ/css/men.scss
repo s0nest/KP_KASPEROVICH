@@ -1,0 +1,178 @@
+// переменные для цвета и шрифта
+$main-color: #333;
+$border-color: #ccc;
+$header-font: Arial, sans-serif;
+
+// стили для header
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 20px;
+  border: 2px solid $border-color;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 8vh;
+  border-bottom: 1px solid $border-color;
+  align-items: center;
+  
+}
+
+
+// стили для div-блоков
+.choice{
+  display: flex;
+}
+div.men {
+  display: inline-block;
+  border: 2px solid $border-color;
+  border-top: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  padding: 20px;
+  margin-left: 10vw;
+  width: 36.01vw; 
+  text-align: center;
+  font-weight: bolder;
+  @media (max-width: 1800px) {
+    width: 40vw;
+  }
+  @media (max-width: 1000px) {
+    width: 35vw;
+  }
+}
+.jen{
+  text-decoration: none;
+}
+.jen:visited{
+  color: black;
+}
+div.women {
+  display: inline-block;
+  border: 2px solid $border-color;
+  border-top: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  padding: 20px;
+  width: 36.01vw; 
+  margin-right: 10vw;
+
+  text-align: center;
+  @media (max-width: 1800px) {
+    width: 40vw;
+  }
+  @media (max-width: 1000px) {
+    width: 35vw;
+  }
+}
+
+//стили для заголовка
+
+h1.sell {
+  margin-left: 10vw;
+  margin-top: 15vh;
+  font-family: $header-font;
+  font-size: 41px;
+  font-weight: bold;
+  margin-bottom: 12vh;
+}
+.num{
+  display: inline-block;
+    font-size: 14px;
+    height: 18px;
+    width: 16px;
+    transform: translate(5px,-20px);
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (max-width: 480px) {
+      grid-template-columns: 1fr;
+    }
+    
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      img {
+        max-width: 100%;
+      }
+      
+      .product-caption {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 1px;
+      }
+    }
+  }
+  .it1{
+    text-decoration: none;
+    text-align: center;
+  }
+  .it1:visited{
+    color: black;
+  }
+  .it3{
+    text-decoration: none;
+    text-align: center;
+  }
+  .it3:visited{
+    color: black;
+  }
+  //стили для footer
+  .site-footer {
+    background-color: #f5f5f5;
+
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .footer-widgets {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom:1px;
+      
+      .widget {
+        width: 40vw;
+        margin-bottom: 1px;
+        
+        .widget-title {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 1px;
+        }
+        
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          
+          li {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+    
+    .site-info {
+      text-align: center;
+      
+      p {
+        
+        font-size: 12px;
+        color: #888;
+      }
+    }
+  }

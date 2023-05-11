@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 20px;
+  border: 2px solid #ccc;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 8vh;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+
+div.men {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  margin-left: 10vw;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+}
+
+.tip {
+  text-decoration: none;
+}
+
+.tip:visited {
+  color: black;
+}
+
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.product-details .product-image {
+  max-width: 50%;
+  margin-right: 2rem;
+}
+.product-details .product-image a {
+  width: 45vw;
+  height: 55vw;
+}
+.product-details .product-description .product-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 10vh;
+}
+.product-details .product-description .product-caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.product-details .product-description .product-price {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.product-details .product-description .cen {
+  color: rgb(217, 213, 213);
+  font-size: 2rem;
+  margin-left: 1vw;
+}
+.product-details .product-description .product-info {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.izo {
+  background: url(it1.png) no-repeat 50% 50%;
+  display: block;
+}
+
+.izo:hover {
+  background: url(nik.png) no-repeat 50% 50%;
+  background-size: 45vw;
+}

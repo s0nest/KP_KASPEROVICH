@@ -1,0 +1,23 @@
+products{
+    display: table;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+product, head{
+    display: table-row;
+}
+
+nname, pprice{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(195, 201, 205, 0.875);
+}
+
+name, price{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+}

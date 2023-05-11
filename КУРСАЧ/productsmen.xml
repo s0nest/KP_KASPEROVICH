@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="productsmen.css"?>
+<products>
+        <men>
+        <head>
+            <nname>Название</nname>
+            <pprice>Цена</pprice>
+        </head>
+        <product>
+            <name>PRINT RAGLAN TEE</name>
+            <price>112$</price>
+        </product>
+        <product>
+            <name>CONSINNITY SHEARLING JACKET</name>
+            <price>2240$</price>
+        </product>
+        <product>
+            <name>LIQUID METAL TROUSERS</name>
+            <price>500$</price>
+        </product>
+        <product>
+            <name>CHRYSALIS DENIM JACKET</name>
+            <price>650$</price>
+        </product>
+        <product>
+            <name>WRETCHED PRINT CREWNECK</name>
+            <price>175$</price>
+        </product>
+        <product>
+            <name>CONCERTEDLY CREWNECK</name>
+            <price>280$</price>
+        </product>
+        </men>
+    <women>
+    <head>
+        <nname>Название</nname>
+        <pprice>Цена</pprice>
+    </head>
+    <product>
+        <name>CHORDATA DRESS</name>
+        <price>525$</price>
+    </product>
+    <product>
+        <name>TAILORED DRESS</name>
+        <price>855$</price>
+    </product>
+    <product>
+        <name>G-HOOK SKIRT</name>
+        <price>306$</price>
+    </product>
+    <product>
+        <name>JERSEY BODYSUIT</name>
+        <price>168$</price>
+    </product>
+    <product>
+        <name>CONTRIVANCE BOMBER JACKET</name>
+        <price>500$</price>
+    </product>
+    <product>
+    <name>DULCET TROUSERS</name>
+        <price>500$</price>
+    </product>
+    </women>
+</products>
